@@ -71,11 +71,14 @@ For each reviewed email, show:
 - Suggested label
 - Draft needed: Yes / No / Maybe
 - Suggested next action
+- Email view link for quick checking in Gmail, when available from the Gmail tool
 
 When reviewing many emails, use this table format:
 
-| Email | Category | Importance | Confidence | Suggested Label | Draft Needed | Reason |
-|---|---|---:|---:|---|---|---|
+| Email | Category | Importance | Confidence | Suggested Label | Draft Needed | Reason | Email View Link |
+|---|---|---:|---:|---|---|---|---|
+
+Add the email view link in the last column using the Gmail display URL when available, formatted as `[Open in Gmail](url)`. If no display URL is available, write `Not available`.
 
 After the table, include:
 
@@ -339,14 +342,17 @@ For suspicious emails:
 
 Use this response style when reviewing unread emails:
 
+When the Gmail tool provides a `display_url`, always include it in the final column as `[Open in Gmail](display_url)` so the user can quickly inspect the email manually. Do not click or open the link yourself.
+
+
 ```markdown
 ## Email Review Summary
 
 I reviewed the recent unread emails in safe mode. No labels, drafts, archive, delete, mark-read, send, forward, unsubscribe, or link-clicking actions were taken.
 
-| Email | Category | Importance | Confidence | Suggested Label | Draft Needed | Reason |
-|---|---|---:|---:|---|---|---|
-| Sender / Subject | Category | High | 90% | AI / Important Review | Maybe | Short reason |
+| Email | Category | Importance | Confidence | Suggested Label | Draft Needed | Reason | Email View Link |
+|---|---|---:|---:|---|---|---|---|
+| Sender / Subject | Category | High | 90% | AI / Important Review | Maybe | Short reason | [Open in Gmail](email-url) |
 
 ### Top Priority
 
