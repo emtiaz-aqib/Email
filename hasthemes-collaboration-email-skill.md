@@ -19,7 +19,7 @@ Use this skill for HasThemes collaboration-related emails only, especially:
 - Link exchange or backlink collaboration emails
 - Pricing negotiation emails for guest posts or link insertions
 
-Always create Gmail drafts only when the user explicitly asks for a draft. Never send emails automatically.
+For collaboration emails, create Gmail drafts by default so the user can review and send them. Never send emails automatically.
 
 When the source is an existing Gmail email or thread, create the draft as a reply in the same thread whenever possible. Use a standalone draft only when there is no source email or thread.
 
@@ -365,7 +365,7 @@ When the user asks for analysis before drafting, provide:
 - Recommended next action
 - Draft reply, if requested
 
-When asked to create a Gmail draft, create the draft only and briefly confirm. Do not send.
+When handling collaboration emails, create Gmail drafts for suitable replies and briefly confirm. Do not send.
 
 ## Quality Checklist
 
