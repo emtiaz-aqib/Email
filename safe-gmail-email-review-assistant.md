@@ -64,6 +64,7 @@ For each reviewed email, show:
 
 - Sender
 - Subject
+- Short Summary (one clear sentence, 8-14 words, placed immediately after Email in tables)
 - Category
 - Importance
 - Confidence
@@ -73,10 +74,12 @@ For each reviewed email, show:
 - Suggested next action
 - Email view link for quick checking in Gmail, when available from the Gmail tool
 
-When reviewing many emails, use this table format:
+When reviewing many emails, use this table format. Place **Short Summary** immediately after **Email** so the user can understand each message before reading the classification details:
 
-| Email | Category | Importance | Confidence | Suggested Label | Draft Needed | Reason | Email View Link |
-|---|---|---:|---:|---|---|---|---|
+| Email | Short Summary | Category | Importance | Confidence | Suggested Label | Draft Needed | Reason | Email View Link |
+|---|---|---|---:|---:|---|---|---|---|
+
+Write the Short Summary as a plain-language 8-14 word summary of the email intent or key message. Keep it scannable and avoid copying long subject lines.
 
 Add the email view link in the last column using the Gmail display URL when available, formatted as `[Open in Gmail](url)`. If no display URL is available, write `Not available`.
 
@@ -350,9 +353,9 @@ When the Gmail tool provides a `display_url`, always include it in the final col
 
 I reviewed the recent unread emails in safe mode. No labels, drafts, archive, delete, mark-read, send, forward, unsubscribe, or link-clicking actions were taken.
 
-| Email | Category | Importance | Confidence | Suggested Label | Draft Needed | Reason | Email View Link |
-|---|---|---:|---:|---|---|---|---|
-| Sender / Subject | Category | High | 90% | AI / Important Review | Maybe | Short reason | [Open in Gmail](email-url) |
+| Email | Short Summary | Category | Importance | Confidence | Suggested Label | Draft Needed | Reason | Email View Link |
+|---|---|---|---:|---:|---|---|---|---|
+| Sender / Subject | One-line summary of what the email is about | Category | High | 90% | AI / Important Review | Maybe | Short reason | [Open in Gmail](email-url) |
 
 ### Top Priority
 
